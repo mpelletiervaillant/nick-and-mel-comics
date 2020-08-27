@@ -3,6 +3,7 @@
   --color-blue: #333BD0;
   --color-navy: #252852;
   --color-pink: #F8EFE8;
+  --color-grey: #313131;
 }
   
 html {
@@ -24,10 +25,18 @@ body {
   color: white;
 }
 
+.grey {
+  color: var(--color-grey);
+}
+
 /* ---------Fonts---------- */
 
 .upper {
   text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 .black {
@@ -36,6 +45,15 @@ body {
 
 .light {
   font-weight: 300;
+}
+
+
+.read-more-link {
+  text-decoration: none;
+}
+
+h4 {
+  line-height: 1.1
 }
 
 
@@ -48,6 +66,15 @@ body {
 .border-btm {
   border-bottom: 5px solid var(--color-blue);
 }
+
+.border-right {
+  border-right: 5px solid var(--color-blue);
+}
+
+.border-left {
+  border-left: 5px solid var(--color-blue);
+}
+
 
 /* ---------Others---------- */
 
