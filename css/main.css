@@ -9,6 +9,7 @@
 html {
   font-family: var(--font-primary);
   scroll-behavior: smooth;
+  background-color: var(--color-blue);
 }
 
 body {
@@ -87,4 +88,9 @@ h4 {
 .created-by-box {
   background-color: var(--color-blue);
   right: 2em;
+}
+
+.read-latest-box {
+  background-color: var(--color-blue);
+  left: 2em;
 }
