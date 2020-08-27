@@ -34,6 +34,11 @@ body {
   font-weight: 900;
 }
 
+.light {
+  font-weight: 300;
+}
+
+
 /* ---------Borders---------- */
 
 .border-top {
@@ -50,8 +55,9 @@ body {
   height: 100px;
 }
 
+/* ---------Home Page---------- */
+
 .created-by-box {
   background-color: var(--color-blue);
-
   right: 2em;
 }

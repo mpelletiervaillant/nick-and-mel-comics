@@ -10,7 +10,6 @@ html {
 
 a {
   background-color: transparent;
-  -webkit-text-decoration-skip: objects;
 }
 
 sub,
@@ -204,7 +203,6 @@ caption {
 h1,
 .exa {
   font-size: 3.0518rem;
-  line-height: 4.225rem;
 }
 
 h2,
@@ -222,7 +220,6 @@ h3,
 h4,
 .giga {
   font-size: 1.5625rem;
-  line-height: 2.275rem;
 }
 
 h5,
@@ -606,7 +603,6 @@ legend {
   h1,
   .exa {
     font-size: 3.0518rem;
-    line-height: 4.2rem;
   }
 
   h2,
@@ -624,7 +620,6 @@ legend {
   h4,
   .giga {
     font-size: 1.5625rem;
-    line-height: 2.1rem;
   }
 
   h5,
