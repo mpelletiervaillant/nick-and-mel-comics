@@ -1,30 +1,6 @@
-<!DOCTYPE html>
-<html lang='en-ca'>
-<head>
-  <meta charset='utf-8'>
-  <title>Nick and Mel Comics</title>
-  <meta name="description" content="Comics about Nick and Mel's life!">
-  <meta name='viewport' content='width=device-width,initial-scale=1'>
-  <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
-  <!-- Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_CA">
-  <meta property="og:title" content="Nick and Mel Comics">
-  <meta property="og:url" content="http://www.melanypv.ca">
-  <meta property="og:image" content="{{site.baseurl}}/">
-  <meta property="og:site_name" content="Mélany Pelletier-Vaillant">
-  <meta property="og:description" content="Nick and Mel Comics">
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Nick and Mel Comics">
-  <meta name="twitter:url" content="http://www.melanypv.ca">
-  <meta name="twitter:description" content="Nick and Mel Comics">
-  <!-- CSS -->
-  <link href="css/site.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.typekit.net/vat7xad.css">
-</head>
-<body>
-
+---
+layout: default
+---
   <div class="wrapper relative height-100">
     <div class="created-by-box absolute pin-right-bottom gutter-1-2 pad-t-1-2 pad-b-1-4">
       <p class="push-0 white upper black">Created by Melany PV</p>
@@ -38,9 +14,9 @@
   </div>   
 
   <section class="wrapper">
-    <div class="grid grid-middle border-btm gutter">
-      <div class="unit xs-1">
-        <p class="push-0 pad-t-1-4 pad-b-1-4">Hand drawn comics of our life. | Made with Love by Mel and Nick </p>
+    <div class="border-btm">
+      <div class="marquee relative">
+        <p class="push-0 pad-t-1-4 pad-b-1-2 absolute">Hand drawn comics of our life. | Made with Love by Mel and Nick. | Hand drawn comics of our life. | Made with Love by Mel and Nick. | Hand drawn comics of our life. | Made with Love by Mel and Nick. | Hand drawn comics of our life. | Made with Love by Mel and Nick./p>
       </div>
     </div>  
 
@@ -52,9 +28,7 @@
         <p class="upper push-0 milli blue ">COMIC 01</p>
         <h4 class="push-1-4 blue">How I ‘Almost’ Got  an Elephant</h4>
         <p class="grey light push-1-4">Mel almost convinces Nick to get a pet elephant!</p>
-        <div>
-          <a class="read-more-link bold blue ib" href="">Read More</a>
-        </div> 
+        {% include button.html %}
       </div>  
       <div class="unit xs-1 m-1-4 gutter pad-t pad-b column-3">
         <p class="upper push-0 milli blue">COMIC 02</p>
@@ -192,7 +166,7 @@
         <p class="push-0 blue milli">Updated August 2020</p>
       </div>
       <div class="unit xs-3-5 text-center gutter-2  pad-t-1-2 pad-b-1-2">
-        <p class="push-0 blue bold">To see more of Mel’s design work, visit her portfolio website www.melanypv.ca</p>
+        <p class="push-0 blue bold">To see more of Mel’s design work, visit her portfolio website <a href="http://melanypv.ca/">www.melanypv.ca</a></p>
       </div>
       <div class="unit xs-1-5 text-right">
       </div>
