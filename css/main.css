@@ -48,13 +48,24 @@ body {
   font-weight: 300;
 }
 
+h4 {
+  line-height: 1.1
+}
 
 .read-more-link {
   text-decoration: none;
 }
 
-h4 {
-  line-height: 1.1
+.comic-tag {
+  background-color: var(--color-blue);
+}
+
+.embed {
+  border: 1px solid var(--color-navy);
+}
+
+figure {
+  margin-bottom: 0;
 }
 
 
@@ -93,4 +104,78 @@ h4 {
 .read-latest-box {
   background-color: var(--color-blue);
   left: 2em;
+}
+
+.column-2 {
+  border-bottom: 5px solid var(--color-blue);
+}
+
+.past-1, .past-2 {
+  border-bottom: 5px solid var(--color-blue);
+}
+
+.portrait-video {
+padding: 0 10em 0 10em;
+}
+
+.nick-intro {
+  left: 2em;
+  z-index: 1;
+  max-width: 300px;
+}
+
+.mel-intro {
+  right: 2em;
+  z-index: 1;
+  max-width: 300px;
+}
+
+.designed-by-text {
+  line-height: 1;
+}
+
+.page-number {
+  background-color: var(--color-blue);
+  height: 100%;
+}
+
+
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    font-size: 3rem;
+    line-height: 5.2rem;
+  }
+
+  .column-2, .column-3 {
+    border-bottom: none;
+    border-left: 5px solid var(--color-blue);
+
+  }
+
+  .past-1 {
+    border: none;
+  }
+
+  .past-2, .past-3 {
+    border-bottom: none;
+    border-left: 5px solid var(--color-blue);
+  }
+}
+
+@media only screen and (min-width: 50em) {
+
+  h1 {
+    font-size: 6rem;
+    line-height: 5.2rem;
+  }
+}
+
+@media only screen and (min-width: 95em) {
+
+  h1 {
+    font-size: 6.5rem;
+    line-height: 5.2rem;
+  }
 }
