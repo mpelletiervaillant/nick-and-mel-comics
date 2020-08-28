@@ -1,5 +1,37 @@
-- comicName: How I "Almost" Got an Elephant
-  comicNumber: Comic 01
+- comicTitle: House Plants
+  comicNumber: Comic 09
+  bannerImage: comic-9/comic-9-banner.jpg
+  thumbnailImage: comic-9/comic-9-thumbnail.jpg
+  shortDescription: A tour of our house plants!
+  longDescription: Please enjoy a quick tour of our (Mel's) house plants. Nick is the best and supports my addiction by waiting for me at IKEA while I look at ALL THE PLANTS.
+  url: comic-9.html
 
-- comicName: Side Projects
-  comicNumber: Comic 02   
+- comicTitle: Chick Flicks
+  comicNumber: Comic 08
+  thumbnailImage: comic-/comic--thumbnail.jpg
+  shortDescription: Nick ruins all chik flicks in 1 setence!
+
+- comicTitle: Animal Crossing
+  comicNumber: Comic 07
+  thumbnailImage: comic-7/comic-7thumbnail.jpg
+  shortDescription: Nick asks Mel a very important question.
+
+- comicTitle: Garlic Bread
+  comicNumber: Comic 06
+  thumbnailImage: comic-6/comic-6-thumbnail.jpg
+  shortDescription: Nick asks Mel a very important question.
+
+- comicTitle: Nick Through the Years
+  comicNumber: Comic 05
+  thumbnailImage: comic-5/comic-5-thumbnail.jpg
+  shortDescription: See what Nick looked like in 2009.
+
+- comicTitle: Why Doesn't He Love Me?
+  comicNumber: Comic 04
+  thumbnailImage: comic-4/comic-4-thumbnail.jpg
+  shortDescription: And no I'm not talking about Nick...
+
+- comicTitle: How I "Almost" Got an Elephant
+  comicNumber: Comic 01
+  thumbnailImage: comic-1/comic-1-thumbnail.jpg
+  shortDescription: Mel almost convinces Nick to get a pet elephant!

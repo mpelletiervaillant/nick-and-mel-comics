@@ -68,7 +68,6 @@ figure {
   margin-bottom: 0;
 }
 
-
 /* ---------Borders---------- */
 
 .border-top {
@@ -87,6 +86,23 @@ figure {
   border-left: 5px solid var(--color-blue);
 }
 
+.test {
+  height: 240px;
+}
+
+/* ---------Links & Buttons---------- */
+
+.read-more-link:hover {
+  transform: scale(1.05);
+}
+
+.read-more-link:hover .icon {
+  transform: translateX(4px);
+}
+
+.read-more-link {
+  transition: all .3s ease-in-out;
+}
 
 /* ---------Others---------- */
 
@@ -161,7 +177,6 @@ figure {
   left: 2em;
 }
 
-
 .column-2 {
   border-bottom: 5px solid var(--color-blue);
 }
@@ -196,7 +211,6 @@ padding: 0 10em 0 10em;
 }
 
 
-
 @media only screen and (min-width: 38em) {
 
   h1 {
@@ -211,8 +225,9 @@ padding: 0 10em 0 10em;
   }
 
   .past-1 {
-    border: none;
-  }
+    border-left: 5px solid var(--color-pink);
+    border-bottom: none;
+}
 
   .past-2, .past-3 {
     border-bottom: none;
