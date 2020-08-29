@@ -4,6 +4,7 @@
   --color-navy: #252852;
   --color-pink: #F8EFE8;
   --color-grey: #313131;
+  --color-orange: #b5785c;
 }
   
 html {
@@ -28,6 +29,10 @@ body {
 
 .grey {
   color: var(--color-grey);
+}
+
+.orange {
+  color: var(--color-orange);
 }
 
 /* ---------Fonts & Text---------- */
@@ -67,6 +72,10 @@ h4 {
   border: 1px solid var(--color-navy);
 }
 
+.img-border {
+  border: 1px solid var(--color-navy);
+}
+
 figure {
   margin-bottom: 0;
 }
@@ -99,6 +108,10 @@ a {
 
 .footer-date, .footer-instagram {
   text-align: center;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: var(--color-navy);
 }
 
 /* ---------Borders---------- */
@@ -268,6 +281,15 @@ a {
   line-height: 1;
 }
 
+/* ---------General---------- */
+
+.comic-title {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+
+
 @media only screen and (min-width: 38em) {
 
   h1 {
@@ -320,6 +342,15 @@ a {
     max-width: 200px;
     visibility: visible;
   }
+
+  .page-number {
+    visibility: visible;
+  }
+  
+  .mobile-push {
+    margin-bottom: 0;
+  }
+  
 }
 
 @media only screen and (min-width: 75em) {
@@ -339,7 +370,7 @@ a {
   
   .mel-intro {
     right: 2em;
-    max-width: 300px;
+    max-width: 325px;
   }
 }
 

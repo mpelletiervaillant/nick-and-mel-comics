@@ -22,6 +22,13 @@
   <!-- CSS -->
   <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/vat7xad.css">
+  <!-- Slick -->
+  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> -->
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/slick/slick-theme.css"/>
+
+
 </head>
 <body>
 
@@ -32,30 +39,67 @@
   </div>
 
   <div class="wrapper">
-    <div class="gutter border-top pad-t-1-2 pad-b-1-2">
-      <i class="icon i-18 arrow-left">
-        <img src="{{site.baseurl}}/images/arrow-right.svg" alt="">
-      </i>
-      <a class="read-more-link bold blue ib" href="{{site.baseurl}}/index">Return to Front Page
-      </a>    
+    <div class="grid grid-middle border-top pad-t-1-2 pad-b-1-2">
+      <div class="unit xs-1-2">
+        <i class="icon i-18 arrow-left">
+          <img src="{{site.baseurl}}/images/arrow-right.svg" alt="">
+        </i>
+        <a class="link relative bold blue ib" href="{{site.baseurl}}/index">Return to Front Page
+        </a>    
+      </div>
+      <div class="unit xs-1-2 text-right">
+        <a class="link relative bold blue ib" href="{{site.baseurl}}/see-all-of-them">View All Comics
+          <i class="icon i-18">
+            <img src="{{site.baseurl}}/images/arrow-right.svg" alt="">
+          </i>
+        </a>    
+      </div>
     </div>
-  </div> 
+  </div>
+
   {{content}}
+
+  <section class="wrapper">
+    <div class="grid grid-middle pad-t-2 pad-b-2">
+      <div class="mobile-push unit xs-1 m-2-5 gutter">
+        <p class="blue upper bold push-0 giga designed-by-text">Designed & Coded with love by Mel and Nick</p>
+      </div>
+
+      <div class="mobile-push unit xs-1 m-2-5 gutter">
+        <p class="blue push-0">Turning our everyday interactions into comics has been amazingly fun and they just make me so fricken happy.</p>
+      </div>
+
+      <div class="mobile-push unit xs-1 m-1-5 gutter">
+        <p class="blue bold push-0">Follow Nick & Mel Comics on <a class="link relative ib orange" href="https://www.instagram.com/nickandmelcomics/">Instagram</a>!</p>
+      </div>
+    </div>
+  </section>
+
   <footer class="border-top border-btm relative">
     <div class="grid grid-middle">
-      <div class="unit xs-1-5 gutter-2  pad-t-1-2 pad-b-1-2">
+      <div class="footer-date unit xs-1 m-1-5 gutter-2 pad-t-1-2 pad-b-1-2">
         <p class="push-0 blue milli">Updated August 2020</p>
       </div>
-      <div class="unit xs-3-5 text-center gutter-2  pad-t-1-2 pad-b-1-2">
-        <p class="push-0 blue bold">To see more of Mel’s design work, visit her portfolio website <a href="http://melanypv.ca/">www.melanypv.ca</a></p>
+      <div class="footer-instagram unit xs-1 m-3-5 text-center gutter-2 pad-t-1-2 pad-b-1-2">
+        <p class="push-0 blue bold">To see more of Mel’s design work, visit her portfolio website <a class="link relative ib orange" href="http://melanypv.ca/">www.melanypv.ca</a></p>
       </div>
-      <div class="unit xs-1-5 text-right">
+      <div class="unit xs-1 m-1-5 text-right">
       </div>
     </div>
     <div class="page-number ib absolute pin-center-right ">
-      <p class="push-0 upper white pad-t-1-2 bold small gutter-1-4">Home</p>
+      <p class="push-0 upper white pad-t-1-2 bold small gutter-1-4">{{page.comicNumber}}</p>
     </div>
   </footer>
 
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script src="{{site.baseurl}}/js/main.js"></script>
+
+
+
+
 </body>
 </html>
+
