@@ -48,6 +48,10 @@ body {
   font-weight: 300;
 }
 
+h3 {
+  line-height: 1;
+}
+
 h4 {
   line-height: 1.1
 }
@@ -72,7 +76,7 @@ a {
 }
 
 .column-height {
-  height: 240px;
+  height: 150px;
 }
 
 .height-100 {
@@ -86,6 +90,15 @@ a {
 .page-number {
   background-color: var(--color-blue);
   height: 100%;
+  visibility: hidden;
+}
+
+.mobile-push {
+  margin-bottom: 1em;
+}
+
+.footer-date, .footer-instagram {
+  text-align: center;
 }
 
 /* ---------Borders---------- */
@@ -108,21 +121,35 @@ a {
 
 /* ---------Links & Buttons---------- */
 
-.read-more-link:hover {
-  transform: scale(1.05);
+
+.link .icon {
+  transition: all .3s ease-in-out;
 }
 
-.read-more-link:hover .icon {
+.link:hover .icon {
   transform: translateX(4px);
 }
 
-.read-more-link {
-  transition: all .3s ease-in-out;
+.link:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: var(--color-blue);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.link:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
 
 .image-link {
   transition: all .2s ease-in-out;
-}
+} */
 
 .image-link:hover {
   transform: scale(1.025);
@@ -216,6 +243,10 @@ a {
   letter-spacing: 3px;
 }
 
+.banner-description {
+  line-height: 1.5;
+}
+
 .column-2 {
   border-bottom: 5px solid var(--color-blue);
 }
@@ -224,32 +255,27 @@ a {
   border-bottom: 5px solid var(--color-blue);
 }
 
-.portrait-video {
-padding: 0 10em 0 10em;
-}
-
 .nick-intro {
-  left: 2em;
-  z-index: 1;
-  max-width: 300px;
+  visibility: hidden;
 }
 
 .mel-intro {
-  right: 2em;
-  z-index: 1;
-  max-width: 300px;
+  visibility: hidden;
 }
 
 .designed-by-text {
   line-height: 1;
 }
 
-
 @media only screen and (min-width: 38em) {
 
   h1 {
     font-size: 3rem;
     line-height: 5.2rem;
+  }
+
+  .column-height {
+    height: 240px;
   }
 
   .column-2, .column-3 {
@@ -274,6 +300,46 @@ padding: 0 10em 0 10em;
   h1 {
     font-size: 6rem;
     line-height: 5.2rem;
+  }
+
+  .portrait-video {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .nick-intro {
+    left: 0;
+    z-index: 1;
+    max-width: 200px;
+    visibility: visible;
+  }
+
+  .mel-intro {
+    right: 0;
+    z-index: 1;
+    max-width: 200px;
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .portrait-video {
+    max-width: 700px;
+  }
+
+  .nick-intro {
+    left: 2em;
+    max-width: 300px;
+  }
+  
+  .mel-intro {
+    right: 2em;
+    max-width: 300px;
   }
 }
 

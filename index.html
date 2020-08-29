@@ -23,17 +23,17 @@ title: Nick and Mel Comics
     </div>  
 
     <div class="grid grid-middle border-btm gutter slide-in">
-      <div class="unit xs-0 m-1-2 gutter">
+      <div class="unit xs-0 m-1-3 l-1-2 gutter">
         <p class="push-0 blue bold tera">Read Our Comics</p>
       </div>  
-      <div class="unit xs-1 m-1-4 gutter pad-t pad-b column-2 column-height">
+      <div class="unit xs-1 m-1-3 l-1-4 gutter pad-t pad-b column-2 column-height">
         {% assign data=site.data.comics[1] %}
         <p class="upper push-0 milli blue ">{{data.comicNumber}}</p>
         <h4 class="push-1-4 blue">{{data.comicTitle}}</h4>
         <p class="grey light push-1-4">{{data.shortDescription}}</p>
         {% include read-more.html %}
       </div>  
-      <div class="unit xs-1 m-1-4 gutter pad-t pad-b column-3 column-height">
+      <div class="unit xs-1 m-1-3 l-1-4 gutter pad-t pad-b column-3 column-height">
         {% assign data=site.data.comics[2] %}
         <p class="upper push-0 milli blue">{{data.comicNumber}}</p>
         <h4 class="push-1-4 blue">{{data.comicTitle}}</h4>
@@ -51,8 +51,8 @@ title: Nick and Mel Comics
     </div>
   </div>
     {% assign data=site.data.comics[0] %}
-    <h2 class="blue upper push-0 black yotta gutter">{{data.comicTitle}}</h2>
-    <p class="grey giga light gutter">{{data.longDescription}}</p>
+    <h2 class="blue upper push-0 black gutter">{{data.comicTitle}}</h2>
+    <p class="grey giga light gutter banner-description">{{data.longDescription}}</p>
 
     <figure class="gutter push-2">
       <a class="image-link block" href="{{data.url}}">
@@ -65,8 +65,8 @@ title: Nick and Mel Comics
 
   <section class="wrapper slide-in">
     <div class="grid grid-middle">
-      <div class="unit xs-1-2">
-        <h3 class="push-0 blue upper peta gutter">Past Comics</h3>
+      <div class="unit xs-1-3">
+        <h3 class="push-0 blue upper gutter">Past Comics</h3>
       </div>
 
       <div class="unit xs-1-2 text-right">
@@ -90,7 +90,7 @@ title: Nick and Mel Comics
         <h4 class="blue push-1-2">{{data.comicTitle}}</h4>
         <p class="grey light push-1-2">{{data.shortDescription}}</p>
         <div>
-          <a class="read-more-link bold blue ib" href="{{site.baseurl}}{{include.url}}">Read More
+          <a class="link relative bold blue" href="{{site.baseurl}}{{include.url}}">Read More
             <i class="icon i-18">
               <img src="images/arrow-right.svg" alt="">
             </i>
@@ -113,7 +113,7 @@ title: Nick and Mel Comics
         <h4 class="blue push-1-2">{{data.comicTitle}}</h4>
         <p class="grey light push-1-2">{{data.shortDescription}}</p>
         <div>
-          <a class="read-more-link bold blue ib" href="{{site.baseurl}}{{include.url}}">Read More
+          <a class="link relative bold blue ib" href="{{site.baseurl}}{{include.url}}">Read More
             <i class="icon i-18">
               <img src="images/arrow-right.svg" alt="">
             </i>
@@ -136,7 +136,7 @@ title: Nick and Mel Comics
         <h4 class="blue push-1-2">{{data.comicTitle}}</h4>
         <p class="grey light push-1-2">{{data.shortDescription}}</p>
         <div>
-          <a class="read-more-link bold blue ib" href="{{site.baseurl}}{{include.url}}">Read More
+          <a class="link relative bold blue ib" href="{{site.baseurl}}{{include.url}}">Read More
             <i class="icon i-18">
               <img src="images/arrow-right.svg" alt="">
             </i>
@@ -147,16 +147,15 @@ title: Nick and Mel Comics
   </section>
 
   <section class="wrapper">
-    <div class=" relative border-btm">
+    <div class="relative border-btm">
       <div class="absolute pin-center-left nick-intro">
-        <h3 class="blue pish-0">Meet Nick...</h3>
+        <h3 class="blue push-0">Meet Nick...</h3>
         <p class="grey push-0">Engineerer. Serial Snacker. Loud Chewer. Video Gamer. Movie Explainer. Makes Everything Better.</p>
-      </div>
       <div class="portrait-video">
-        <div style="padding:55% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/452401030?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        <img class="img-flex" src="{{site.baseurl}}/images/nick-and-mel-portrait.gif" alt="">
       </div>
       <div class="absolute pin-center-right mel-intro">
-        <h3 class="blue pish-0">...and Mel</h3>
+        <h3 class="blue uish-0">...and Mel</h3>
         <p class="grey push-0">Designer. Popcorn Lover. Cardigan Wearer. Cross Stitcher. Question Asker. Also Makes Everything Better.</p>
       </div>
     </div>
@@ -164,15 +163,15 @@ title: Nick and Mel Comics
 
   <section class="wrapper">
     <div class="grid grid-middle pad-t pad-b">
-      <div class="unit xs-1 m-2-5 gutter">
+      <div class="mobile-push unit xs-1 m-2-5 gutter">
         <p class="blue upper bold push-0 giga designed-by-text">Designed & Coded with love by Mel and Nick</p>
       </div>
 
-      <div class="unit xs-1 m-2-5 gutter">
+      <div class="mobile-push unit xs-1 m-2-5 gutter">
         <p class="blue push-0">Turning our everyday interactions into comics has been amazingly fun and they just make me so fricken happy.</p>
       </div>
 
-      <div class="unit xs-1 m-1-5 gutter">
+      <div class="mobile-push unit xs-1 m-1-5 gutter">
         <p class="blue bold push-0">Follow Nick & Mel Comics on <a href="https://www.instagram.com/nickandmelcomics/">Instagram</a>!</p>
       </div>
     </div>
