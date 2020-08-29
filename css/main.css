@@ -142,6 +142,7 @@ a {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
+
 .link:hover:after { 
   width: 100%; 
   left: 0; 
@@ -149,7 +150,7 @@ a {
 
 .image-link {
   transition: all .2s ease-in-out;
-} */
+} 
 
 .image-link:hover {
   transform: scale(1.025);
@@ -281,7 +282,6 @@ a {
   .column-2, .column-3 {
     border-bottom: none;
     border-left: 5px solid var(--color-blue);
-
   }
 
   .past-1 {
