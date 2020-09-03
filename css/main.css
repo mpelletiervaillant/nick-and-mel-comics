@@ -365,12 +365,12 @@ a {
 
   .nick-intro {
     left: 2em;
-    max-width: 300px;
+    max-width: 275px;
   }
   
   .mel-intro {
     right: 2em;
-    max-width: 325px;
+    max-width: 275px;
   }
 }
 
@@ -379,5 +379,15 @@ a {
   h1 {
     font-size: 6.5rem;
     line-height: 5.2rem;
+  }
+
+  .nick-intro {
+    left: 2em;
+    max-width: 325px;
+  }
+  
+  .mel-intro {
+    right: 2em;
+    max-width: 325px;
   }
 }
