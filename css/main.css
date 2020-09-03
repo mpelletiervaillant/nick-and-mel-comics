@@ -61,6 +61,14 @@ h4 {
   line-height: 1.1
 }
 
+.vertical {
+  vertical-align: middle;
+}
+
+.arrow-gif {
+  display: none;
+}
+
 /* ---------General---------- */
 
 .comic-tag {
@@ -390,4 +398,7 @@ a {
     right: 2em;
     max-width: 325px;
   }
+
+  .arrow-gif {
+    display: inline-block;
 }
